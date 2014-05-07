@@ -43,7 +43,7 @@ public class LinearRegressionWeka {
             // Apply Linear Regression for my instance
             double price = model.classifyInstance(myhouse);
             // Print myhouse 
-            System.out.println("My house  (" + myhouse + ") price");
+            System.out.println("My house  (" + myhouse + "): " + price);
 
         } catch (Exception e) {
             System.out.println(e.getMessage());
